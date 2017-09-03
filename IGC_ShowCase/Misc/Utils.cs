@@ -56,6 +56,8 @@ namespace IGC_ShowCase
         //#script end
     }
 
+    //#script begin
+
     public class LCDLogger
     {
         public const int MaxTextFeedLength = 16;
@@ -86,4 +88,6 @@ namespace IGC_ShowCase
             this.Buffer.Clear();
         }
     }
+
+    //#script end
 }

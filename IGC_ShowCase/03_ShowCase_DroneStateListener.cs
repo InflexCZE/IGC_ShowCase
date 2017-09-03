@@ -75,7 +75,7 @@ namespace IGC_ShowCase
             }
         }
 
-        //#include<IGC.cs>
+        //#include<Misc/Utils.cs>
         //#script end
     }
 
