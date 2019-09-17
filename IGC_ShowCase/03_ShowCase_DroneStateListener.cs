@@ -30,7 +30,7 @@ namespace IGC_ShowCase
 
         public void Main()
         {
-            while(this.BroadcastListener.IsMessageWaiting)
+            while(this.BroadcastListener.HasPendingMessage)
             {
                 var message = this.BroadcastListener.AcceptMessage();
 
