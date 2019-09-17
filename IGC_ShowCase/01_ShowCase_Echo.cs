@@ -23,7 +23,7 @@ namespace IGC_ShowCase
         public void Main()
         {
             //Check if there is message waiting
-            if(this.IGC.UnicastListener.IsMessageWaiting == false)
+            if(this.IGC.UnicastListener.HasPendingMessage == false)
                 return;
 
             //Accept waiting message
